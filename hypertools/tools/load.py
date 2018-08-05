@@ -54,9 +54,9 @@ def load(dataset, reduce=None, ndims=None, align=None, normalize=None):
 
         `sotus` is a collection of State of the Union speeches from 1989-2018.
 
-        `wiki` is a collection of wikipedia pages used to fit wiki-model.
+        `wiki` is a collection of wikipedia pages used to fit wiki_model.
 
-        `wiki-model` is a sklearn Pipeline (CountVectorizer->LatentDirichletAllocation)
+        `wiki_model` is a sklearn Pipeline (CountVectorizer->LatentDirichletAllocation)
         trained on a sample of wikipedia articles. It can be used to transform
         text to topic vectors.
 
